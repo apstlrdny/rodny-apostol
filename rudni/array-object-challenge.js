@@ -58,12 +58,3 @@ const quiz = [
 */
 
 // Write your answer here
-
-quiz.forEach((subjectObj, index) => {
-    console.log(`Subject: ${subjectObj.subject}`);
-    subjectObj.quiz.forEach((questionObj, qIndex) => {
-        console.log(`Question ${qIndex + 1}: ${questionObj.question}`);
-        console.log(`Answer: ${questionObj.answer}`);
-        console.log("-----------------------");
-    });
-});
