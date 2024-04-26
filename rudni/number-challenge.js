@@ -21,7 +21,7 @@ function func4(num1, num2) {
     return (num1 + num2) / 2;
 }
 
-console.log("Sum:", func1(5, 7, 3));
-console.log("Difference:", func2(10, 4)); 
+console.log("Sum:", func1(15, 5, 3));
+console.log("Difference:", func2(33, 10)); 
 console.log("Product:", func3(6, 4)); 
 console.log("Average:", func4(8, 12)); 
